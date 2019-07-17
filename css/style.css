@@ -1,0 +1,104 @@
+@media (max-width:992px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:567px) {}
+
+.center {}
+
+.content-wrapper {
+    padding: 10px;
+}
+
+body {
+    background-color: #eff0f6 !important;
+    /* background-color: red; */
+
+}
+
+.sidebarIcon {
+    font-size: 40px;
+    color: #dc3545;
+    margin: 0 23px 0 12px;
+    cursor: pointer;
+
+}
+
+.sidebarIcon1 {
+    font-size: 30px;
+    color: white;
+    margin: 0 23px 0 1px;
+    cursor: pointer;
+
+}
+
+.sidebar-half {
+    background-color: white;
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 100;
+    border-radius: 0% 50% 350% 0%;
+    transition: 0.5s;
+}
+
+.sidebar {
+    background-color: white;
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.sidebar-full {
+    background-color: white;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 100;
+    transition: 0.5s;
+    border-radius: 0% 50% 350% 0%;
+
+}
+
+#smallnav p {
+    font-size: 45px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+#smallnav p:hover {
+    font-size: 45px;
+    text-align: center;
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#largenav p {
+    font-size: 25px;
+    text-align: center;
+    color: #dc3545;
+}
+
+#car,
+#car1 {
+    transition: 3s;
+    cursor: pointer;
+
+}
+
+#car:hover {
+    transform: translateX(1004px);
+    transition: 3s;
+}
+
+#car1:hover {
+    transform: translateX(1004px);
+    transition: 5s;
+}
